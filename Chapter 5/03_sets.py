@@ -1,0 +1,11 @@
+a = {1, 2, 3, 1}
+print(type(a))
+print(a)
+b = set()
+print(b)
+print(type(b))
+b.add(4)
+b.add(5)
+b.add((4, 5, 6))
+print(b)
+print(len(b))

@@ -1,0 +1,11 @@
+Sub1 = int(input("Enter your Subject 1 Marks\n"))
+Sub2 = int(input("Enter your Subject 2 Marks\n"))
+Sub3 = int(input("Enter your Subject 3 Marks\n"))
+
+if(Sub1+Sub2+Sub3)/3 >=90 : print("Excellent")
+elif(Sub1+Sub2+Sub3)/3 >=80 : print("Perfect")
+elif(Sub1+Sub2+Sub3)/3 >=70 : print("Great")
+elif(Sub1+Sub2+Sub3)/3 >=60 : print("Good")
+elif(Sub1+Sub2+Sub3)/3 >=50 : print("Average")
+elif(Sub1+Sub2+Sub3)/3 >=40 : print("Below Average")
+else:print("Fail")
